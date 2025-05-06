@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import Hero from './components/Hero'
+import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Hero/>
+      <About/>
+      <Contact/>
     </>
   )
 }
