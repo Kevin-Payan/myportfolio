@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Hero/>
-      <About/>
-      <Contact/>
+      {/* <About/>
+      <Contact/> */}
     </>
   )
 }
