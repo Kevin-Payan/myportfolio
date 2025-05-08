@@ -32,11 +32,11 @@ const ContactSection = () => {
         </div>
 
         <blockquote className="italic text-xl mt-14 mb-6">
-          “Intentional by design”
+          -“Intentional by design.”
         </blockquote>
 
         <p className="text-sm text-custom-border">
-          © 2025 All rights reserved. Designed and coded by <span className="font-medium">Kevin Payan</span>
+          Designed and coded by <span className="font-medium">Kevin Payan</span>
         </p>
       </div>
     </section>
