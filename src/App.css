@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -8,6 +9,7 @@
     --color-custom-text: #E0CCAB;
     --color-custom-accent: #efeeeb;
     --color-custom-border: #372B21;
-    --font-custom: "Playfair Display", serif;
+    --font-custom-alt: "Playfair Display", serif;
+    --font-custom: "Lora", serif;
 
 }
