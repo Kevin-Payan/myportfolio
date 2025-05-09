@@ -12,7 +12,7 @@ const Hero = () => {
           shadow-[0_30px_80px_rgba(0,0,0,0.5)] ring-1 ring-custom-border/10 
           bg-gradient-to-t from-black/30 via-black/10 to-transparent">
           <img
-            src="/src/assets/me.svg"
+            src="/assets/me.svg"
             alt="Kevin Payan"
             className="w-full h-auto object-cover rounded-xl"
           />
