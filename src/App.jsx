@@ -9,7 +9,7 @@ function App() {
     <>
       <Hero/>
       <About/>
-      {/* <Experience/> */}
+      <Experience/>
       <Contact/>
     </>
   )
