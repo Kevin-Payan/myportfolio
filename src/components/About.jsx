@@ -27,7 +27,7 @@ const skills = [
 const About = () => {
   return (
     <section className="w-full px-4 sm:px-8 py-12 max-w-4xl mx-auto">
-      <h1 className="text-2xl text-custom-primary mb-8 font-medium">ABOUT ME</h1>
+      <h1 className="text-2xl text-custom-secondary mb-8 font-medium">ABOUT ME</h1>
       <h2 className="text-xl font-semibold text-custom-secondary mb-2">Behind the code</h2>
       <p className="text-base leading-relaxed text-custom-text mb-8">
         Passionate about crafting elegant, efficient solutions to complex problems. I enjoy building APIs, 

@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 const ContactSection = () => {
   return (
     <section className="bg-custom-background max-w-4xl mx-auto text-center px-4 sm:px-8 py-12">
-      <h1 className='flex text-2xl text-custom-primary mb-8 font-medium'>CONTACT</h1>
+      <h1 className='flex text-2xl text-custom-secondary mb-8 font-medium'>CONTACT</h1>
         <h2 className="text-4xl font-semibold mb-6 font-custom-alt text-custom-secondary">Get In Touch</h2>
         <p className="text-lg leading-relaxed mb-10">
           I’m always open to new opportunities and would love to hear from you. <br />
