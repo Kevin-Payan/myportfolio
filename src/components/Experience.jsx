@@ -3,12 +3,12 @@ import { HiOutlineExternalLink } from 'react-icons/hi';
 
 const experiences = [
   {
-    range: 'August 2025 — Current',
+    range: 'August 2025 — Present',
     title: 'Software Engineer',
     company: 'Capital One',
     link: 'https://www.capitalone.com/',
-    description: `Soon...`,
-    tags: ['Excited', ': D', 'New Beginnings'],
+    description: `Coming soon...`,
+    tags: ['Excited', ':D', 'New Beginnings'],
   },
   {
     range: 'June 2024 — June 2025',
@@ -31,37 +31,37 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="bg-custom-background p-6 py-12 max-w-4xl mx-auto">
-      <h2 className="text-2xl font-medium tracking-widest mb-8 text-custom-primary">EXPERIENCE</h2>
+    <section id="experience" className="w-full px-4 sm:px-8 py-12 max-w-4xl mx-auto">
+      <h2 className="text-2xl font-medium tracking-widest mb-8 text-custom-text-primary">EXPERIENCE</h2>
       {experiences.map((exp, idx) => (
         <div key={idx} className="mb-12">
           <p className="text-sm font-semibold">{exp.range}</p>
-          <h3 className="text-xl font-bold mt-1 text-custom-secondary flex items-center gap-2">
+          <h3 className="text-xl font-bold mt-1 text-custom-text-accent flex items-center gap-2">
             {exp.title} 
             <span>
               ·{' '}
-            {exp.company}
-            {' '}
+              {exp.company}
+              {' '}
               <a
                 href={exp.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-custom-primary"
+                className="inline-flex items-center gap-1"
               >
-                <HiOutlineExternalLink className="w-5 h-5 transition-transform transform hover:scale-110 hover:text-custom-primary hover:drop-shadow-[0_0_5px_rgba(255,215,0,0.5)]" />
+                <HiOutlineExternalLink className="w-5 h-5 text-custom-text-accent hover:text-custom-text-primary" />
               </a>
             </span>
           </h3>
           {exp.subtitle && <p className="text-custom-primary mt-1">{exp.subtitle}</p>}
-          <p className="mt-2 text-sm leading-relaxed">{exp.description}</p>
+          <p className="mt-2 text-base leading-relaxed">{exp.description}</p>
           <div className="flex flex-wrap gap-2 mt-4">
             {exp.tags.map((tag, i) => (
-              <span
+              <div
                 key={i}
-                className="bg-custom-foreground border border-custom-border text-xs px-3 py-1 rounded-full"
+                className="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-custom-foreground text-lg font-medium border border-custom-border"
               >
-                {tag}
-              </span>
+                <span className="text-custom-primary">{tag}</span>
+              </div>
             ))}
           </div>
         </div>
