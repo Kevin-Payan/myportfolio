@@ -19,7 +19,7 @@ const Hero = () => {
             I'm a Software Engineer
           </h2>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6 z-10 w-full">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6 z-10">
           <a
             href="https://github.com/Kevin-Payan"
             target="_blank"
