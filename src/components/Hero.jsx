@@ -19,12 +19,12 @@ const Hero = () => {
             I'm a Software Engineer
           </h2>
         </div>
-        <div className="flex items-center justify-center gap-4 mt-6 z-10">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6 z-10 w-full">
           <a
             href="https://github.com/Kevin-Payan"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-custom-foreground text-lg font-medium border border-custom-border hover:bg-custom-border transition-colors duration-200"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-2 rounded-full bg-custom-foreground text-base sm:text-lg font-medium border border-custom-border hover:bg-custom-border transition-colors duration-200 text-center"
           >
             <LuGithub className="w-6 h-6 text-custom-primary" />
             <span className="text-custom-primary">GitHub</span>
@@ -33,7 +33,7 @@ const Hero = () => {
             href="https://www.linkedin.com/in/kevinpayan/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-custom-foreground text-lg font-medium border border-custom-border hover:bg-custom-border transition-colors duration-200"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-2 rounded-full bg-custom-foreground text-base sm:text-lg font-medium border border-custom-border hover:bg-custom-border transition-colors duration-200 text-center"
           >
             <LiaLinkedin className="w-6 h-6 text-custom-primary" />
             <span className="text-custom-primary">LinkedIn</span>
@@ -42,7 +42,7 @@ const Hero = () => {
             href="mailto:kevinpn@hotmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-custom-foreground text-lg font-medium border border-custom-border hover:bg-custom-border transition-colors duration-200"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-2 rounded-full bg-custom-foreground text-base sm:text-lg font-medium border border-custom-border hover:bg-custom-border transition-colors duration-200 text-center"
           >
             <LuMail className="w-6 h-6 text-custom-primary" />
             <span className="text-custom-primary">Email</span>
