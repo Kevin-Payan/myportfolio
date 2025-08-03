@@ -3,12 +3,12 @@ import { HiOutlineExternalLink } from 'react-icons/hi';
 
 const experiences = [
   {
-    range: 'August 2025 — Current',
+    range: 'August 2025 — Present',
     title: 'Software Engineer',
     company: 'Capital One',
     link: 'https://www.capitalone.com/',
-    description: `Soon...`,
-    tags: ['Excited', ': D', 'New Beginnings'],
+    description: `Coming soon...`,
+    tags: ['Excited', ':D', 'New Beginnings'],
   },
   {
     range: 'June 2024 — June 2025',
@@ -31,7 +31,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="bg-custom-background p-6 py-12 max-w-4xl mx-auto">
+    <section id="experience" className="w-full px-4 sm:px-8 py-12 max-w-4xl mx-auto">
       <h2 className="text-2xl font-medium tracking-widest mb-8 text-custom-text-primary">EXPERIENCE</h2>
       {experiences.map((exp, idx) => (
         <div key={idx} className="mb-12">
@@ -53,7 +53,7 @@ const Experience = () => {
             </span>
           </h3>
           {exp.subtitle && <p className="text-custom-primary mt-1">{exp.subtitle}</p>}
-          <p className="mt-2 text-sm leading-relaxed">{exp.description}</p>
+          <p className="mt-2 text-base leading-relaxed">{exp.description}</p>
           <div className="flex flex-wrap gap-2 mt-4">
             {exp.tags.map((tag, i) => (
               <div
