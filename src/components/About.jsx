@@ -8,6 +8,9 @@ import {
   SiServerless, SiNodedotjs
 } from "react-icons/si"
 
+import { BsStripe } from "react-icons/bs";
+import { VscAzure } from "react-icons/vsc";
+
 const skills = [
   { icon: SiJavascript, label: 'JavaScript' },
   { icon: SiPython, label: 'Python' },
@@ -22,13 +25,17 @@ const skills = [
   { icon: SiDocker, label: 'Docker' },
   { icon: SiMongodb, label: 'MongoDB' },
   { icon: SiPostgresql, label: 'PostgreSQL' },
+  { icon: SiDotnet, label: '.NET' },
+  { icon: SiNodedotjs, label: 'Node.js' },
+  { icon: BsStripe, label: 'Stripe' },
+  { icon: VscAzure, label: 'Azure' },
 ]
 
 const About = () => {
   return (
     <section className="w-full px-4 sm:px-8 py-12 max-w-4xl mx-auto">
-      <h1 className="text-2xl text-custom-primary mb-8 font-medium">ABOUT ME</h1>
-      <h2 className="text-xl font-semibold text-custom-secondary mb-2">Behind the code</h2>
+      <h1 className="text-2xl text-custom-text-primary mb-8 font-medium">ABOUT ME</h1>
+      <h2 className="text-xl font-semibold text-custom-text-accent mb-2">Behind the code</h2>
       <p className="text-base leading-relaxed text-custom-text mb-8">
         Passionate about crafting elegant, efficient solutions to complex problems. I enjoy building APIs, 
         managing databases, and setting up cloud infrastructure—but I also enjoy making sure the frontend 
@@ -38,7 +45,7 @@ const About = () => {
         through technology.
       </p>
 
-      <h2 className="text-xl font-semibold text-custom-secondary mb-4">Skills</h2>
+      <h2 className="text-xl font-semibold text-custom-text-accent mb-4">Skills</h2>
       <div className="flex flex-wrap gap-3">
         {skills.map((skill, index) => (
           <SkillTag key={index} icon={skill.icon} label={skill.label} />
