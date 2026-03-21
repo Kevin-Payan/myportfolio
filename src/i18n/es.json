@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Kevin Payan",
+    "subtitle": "Ingeniero de Software",
+    "tagline": "Intencional por diseño.",
+    "chip_open": "Abierto a oportunidades",
+    "chip_overachiever": "Overachiever",
+    "chip_builder": "Builder"
+  },
+  "about": {
+    "section_label": "Sobre mí",
+    "pull_quote": "No hago las cosas a medias.",
+    "bio_p1": "Ingeniero de backend. He trabajado en sistemas que mueven miles de millones de dólares y también estoy construyendo una app para pasear perros. La escala es diferente, el cuidado no.",
+    "bio_p2": "Me atraen los problemas con stakes reales. Sistemas distribuidos, migraciones de datos, arquitecturas que tienen que aguantar cuando las cosas se ponen serias. Fullstack cuando se necesita, backend por elección.",
+    "bio_p3": "Actualmente en Capital One en Ciudad de México. Antes en Trimble. Siempre enviando algo en paralelo."
+  },
+  "skills": {
+    "section_label": "Skills",
+    "cat_languages": "Lenguajes",
+    "cat_frontend": "Frontend",
+    "cat_backend": "Backend",
+    "cat_infra": "Infra & DevOps",
+    "cat_databases": "Bases de datos",
+    "cat_other": "Otros"
+  },
+  "experience": {
+    "section_label": "Experiencia",
+    "present": "Presente",
+    "now": "actual",
+    "capitalone_role": "Ingeniero de Software",
+    "capitalone_company": "Capital One",
+    "capitalone_date": "Ago 2025 — Presente",
+    "capitalone_desc": "En Capital One Ciudad de México, comencé en Financial Spreading, participando activamente en una migración completa de Oracle a PostgreSQL en 10 microservicios, refactorizando dependencias legacy y migrando más de 100K registros, ahorrando $27K anuales y mejorando el rendimiento de servicios en C# sobre AWS que soportan un portafolio de más de $80B en banca comercial. Después pasé al Pricing Model, manteniendo un Dynamic Pricing Engine en Python que soporta más de $50B en operaciones comerciales. Alto impacto, escala real.",
+    "trimble_role": "Ingeniero de Software Intern",
+    "trimble_company": "Trimble",
+    "trimble_date": "Jun 2024 — Jun 2025",
+    "trimble_desc": "Trabajé en el Extension Warehouse de SketchUp, una SPA de alto tráfico donde entregué correcciones, nuevas features y mejoras de SEO que llegaron a usuarios reales a escala. Construí un chatbot con IA usando arquitectura RAG dentro de un entorno serverless. Automaticé flujos de trabajo con Python y contribuí a testing en la nube entre equipos."
+  },
+  "projects": {
+    "section_label": "Proyectos",
+    "huellitas_name": "HuellitasApp",
+    "huellitas_tagline": "La plataforma que conecta dueños de mascotas con paseadores de confianza.",
+    "huellitas_desc": "Plataforma móvil lista para producción con reservas programadas, rastreo GPS en tiempo real y pagos seguros en la app. Construida para escalar desde el primer día.",
+    "huellitas_status": "Próximamente",
+    "stack_label": "Stack"
+  },
+  "contact": {
+    "section_label": "Contacto",
+    "cta_heading": "Construyamos algo.",
+    "cta_sub": "Si estás trabajando en algo ambicioso y necesitas a alguien que genuinamente le importe lo que construye, quiero escucharlo.",
+    "cta_button": "Hablemos",
+    "tagline": "Intencional por diseño."
+  }
+}
