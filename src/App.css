@@ -1,18 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
-    --color-custom-background: #0F172A;
-    --color-custom-foreground: #122A39;
-    --color-custom-primary: #5EEAD4;
-    --color-custom-text-primary: #E2E8F0;
-    --color-custom-text-secondary: #64748B;
-    --color-custom-text-accent: #A3AEBD;
-    --color-custom-secondary: #64748B;
-    --color-custom-accent: #efeeeb;
-    --color-custom-border: #003153;
-    --font-custom-alt: "Playfair Display", serif;
-    --font-custom: "Lora", serif;
+    /* Base */
+    --color-custom-background: #080C14;
+    --color-custom-surface: rgba(255, 255, 255, 0.04);
+    --color-custom-border: rgba(255, 255, 255, 0.08);
 
+    /* Accents */
+    --color-custom-cyan: #FF2056;
+    --color-custom-purple: #FBBF24;
+
+    /* Text */
+    --color-custom-text-primary: #F1F5F9;
+    --color-custom-text-muted: #64748B;
+
+    /* Fonts */
+    --font-display: "Unbounded", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Glass utility */
+.glass {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-hover {
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.glass-hover:hover {
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 8px 32px rgba(255, 32, 86, 0.08);
+    transform: translateY(-2px);
+}
+
+/* Gradient text */
+.gradient-text {
+    background: linear-gradient(135deg, #FF2056, #FBBF24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080C14;
+    color: #F1F5F9;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
