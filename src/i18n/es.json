@@ -2,6 +2,7 @@
   "nav": {
     "about": "Sobre mí",
     "skills": "Skills",
+    "certifications": "Certificaciones",
     "experience": "Experiencia",
     "projects": "Proyectos",
     "contact": "Contacto"
@@ -29,6 +30,9 @@
     "cat_infra": "Infra & DevOps",
     "cat_databases": "Bases de datos",
     "cat_other": "Otros"
+  },
+  "certifications": {
+    "section_label": "Certificaciones"
   },
   "experience": {
     "section_label": "Experiencia",

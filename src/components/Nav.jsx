@@ -19,7 +19,7 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const links = ['about', 'skills', 'experience', 'projects', 'contact']
+  const links = ['about', 'skills', 'experience', 'certifications', 'projects', 'contact']
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
