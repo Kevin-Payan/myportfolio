@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <!-- Background -->
-  <rect width="64" height="64" rx="14" fill="#080C14"/>
+  <rect width="64" height="64" rx="14" fill="#1C1A17"/>
 
   <!-- K -->
   <text
@@ -9,10 +9,10 @@
     font-family="Georgia, serif"
     font-weight="700"
     font-size="42"
-    fill="#F1F5F9"
+    fill="#EFEDE6"
     letter-spacing="-2"
   >K</text>
 
-  <!-- Ruby dot -->
-  <circle cx="54" cy="46" r="5" fill="#FF2056"/>
+  <!-- Accent dot -->
+  <circle cx="54" cy="46" r="5" fill="#8A2A28"/>
 </svg>
