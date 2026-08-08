@@ -12,7 +12,7 @@ const experiences = [
     role: 'Software Engineer II',
     company: 'Capital One',
     date: 'Jul 2026 — Present',
-    desc: "Leading full-stack features end to end in Angular and Go, from backend services through production UI. Proposed and drove an LLM-powered interpretation layer that surfaces insight from previously unusable operational data, partnering directly with stakeholders to scope it and validate what it found.",
+    desc: "I build features end to end in Angular and Go, backend through UI. Also pitched an LLM layer that reads operational data nobody could use before — then worked with stakeholders to scope it and check that what it surfaced was actually true.",
     link: 'https://www.capitalone.com/',
     current: true,
   },
@@ -20,7 +20,7 @@ const experiences = [
     role: 'Software Engineer',
     company: 'Capital One',
     date: 'Aug 2025 — Jul 2026',
-    desc: "Built and maintained C# microservices and internal web apps on AWS supporting an $80B+ commercial banking portfolio. Automated the rollout of a new underwriting standard across 4,500+ customers and 180,000+ financial statements in a $50B lending portfolio, using concurrent processing in Python to hit a tight deadline. Led the decommission of a legacy Oracle dependency across 10 microservices, migrated it to PostgreSQL, and saved $27K a year — discovering and closing SQL injection and IDOR vulnerabilities along the way.",
+    desc: "I worked on the C# and Python microservices underwriters use to decide who gets money. Also wrote some Python automation that ran across 4,500 customers and 180,000 financial statements. And decommissioned a legacy Oracle database across several microservices — rewrote the queries for PostgreSQL and fixed the SQL injection and insecure direct object reference vulnerabilities I found along the way.",
     link: 'https://www.capitalone.com/',
     current: false,
   },
@@ -28,7 +28,7 @@ const experiences = [
     role: 'Software Engineer Intern',
     company: 'Trimble',
     date: 'Jun 2024 — Jun 2025',
-    desc: "Worked on SketchUp's Extension Warehouse, a SPA where I shipped bug fixes, new features, and SEO improvements that reached real users at scale. Built an AI-powered chatbot using a RAG architecture inside a serverless setup. Automated developer workflows with Python and contributed to automated testing across teams.",
+    desc: "I worked on SketchUp's Extension Warehouse, shipping fixes, features, and SEO work that reached real users. Also built a RAG chatbot on serverless AWS, and automated a few developer workflows in Python.",
     link: 'https://www.trimble.com/',
     current: false,
   },
@@ -44,13 +44,13 @@ const experiences = [
 export default function Experience() {
   return (
     <section id="experience" className="w-full px-6 py-20 max-w-6xl mx-auto" style={{ borderTop: '1px solid #D4CFC1' }}>
-      <motion.p
+      <motion.h2
         {...fadeUp()}
         className="font-mono text-xs tracking-widest uppercase mb-10"
         style={{ color: '#7C776A' }}
       >
         Experience
-      </motion.p>
+      </motion.h2>
 
       <div style={{ maxWidth: '680px' }}>
         {experiences.map((exp, i) => (

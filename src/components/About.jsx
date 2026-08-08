@@ -17,13 +17,13 @@ const paragraphs = [
 export default function About() {
   return (
     <section id="about" className="w-full px-6 py-20 max-w-6xl mx-auto" style={{ borderTop: '1px solid #D4CFC1' }}>
-      <motion.p
+      <motion.h2
         {...fadeUp}
         className="font-mono text-xs tracking-widest uppercase mb-10"
         style={{ color: '#7C776A' }}
       >
         About
-      </motion.p>
+      </motion.h2>
 
       <div className="flex flex-col gap-5" style={{ maxWidth: '620px' }}>
         {paragraphs.map((p, i) => (

@@ -10,22 +10,22 @@ const fadeUp = (delay = 0) => ({
 export default function Contact() {
   return (
     <section id="contact" className="w-full px-6 py-24 max-w-6xl mx-auto" style={{ borderTop: '1px solid #D4CFC1' }}>
-      <motion.p
+      <motion.h2
         {...fadeUp()}
         className="font-mono text-xs tracking-widest uppercase mb-10"
         style={{ color: '#7C776A' }}
       >
         Contact
-      </motion.p>
+      </motion.h2>
 
       <div style={{ maxWidth: '540px' }}>
-        <motion.h2
+        <motion.h3
           {...fadeUp(0.05)}
           className="font-display font-medium leading-snug mb-4"
           style={{ fontSize: 'clamp(1.5rem, 4vw, 2rem)', color: '#1C1A17' }}
         >
           Let's build something.
-        </motion.h2>
+        </motion.h3>
 
         <motion.p
           {...fadeUp(0.1)}

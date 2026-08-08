@@ -50,29 +50,31 @@ const fadeUp = (delay = 0) => ({
 export default function Skills() {
   return (
     <section id="skills" className="w-full px-6 py-20 max-w-6xl mx-auto" style={{ borderTop: '1px solid #D4CFC1' }}>
-      <motion.p
+      <motion.h2
         {...fadeUp()}
         className="font-mono text-xs tracking-widest uppercase mb-10"
         style={{ color: '#7C776A' }}
       >
         Skills
-      </motion.p>
+      </motion.h2>
 
       <div className="flex flex-col" style={{ maxWidth: '640px' }}>
         {skillCategories.map((cat, i) => (
           <motion.div
             key={cat.key}
             {...fadeUp(i * 0.04)}
-            className="flex flex-wrap items-start gap-4 py-3.5"
+            className="grid grid-cols-1 sm:grid-cols-[150px_1fr] gap-x-4 gap-y-1.5 py-3.5"
             style={{ borderTop: '1px solid #D4CFC1', borderBottom: i === skillCategories.length - 1 ? '1px solid #D4CFC1' : 'none' }}
           >
-            <span style={{ display: 'block', width: '16px', height: '16px', marginTop: '3px', color: '#7C776A', flexShrink: 0 }}>
-              {icons[cat.key]}
-            </span>
-            <span className="font-mono text-xs tracking-wide" style={{ color: '#8A2A28', width: '90px', flexShrink: 0, paddingTop: '1px' }}>
-              {cat.label.toUpperCase()}
-            </span>
-            <span className="font-body text-[15px]" style={{ color: '#1C1A17' }}>
+            <div className="flex items-center gap-2.5">
+              <span style={{ display: 'block', width: '16px', height: '16px', color: '#7C776A', flexShrink: 0 }}>
+                {icons[cat.key]}
+              </span>
+              <span className="font-mono text-xs tracking-wide whitespace-nowrap" style={{ color: '#8A2A28' }}>
+                {cat.label.toUpperCase()}
+              </span>
+            </div>
+            <span className="font-body text-[15px] sm:pt-px" style={{ color: '#1C1A17' }}>
               {cat.items}
             </span>
           </motion.div>
