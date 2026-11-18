@@ -33,11 +33,11 @@ const icons = {
 
 const skillCategories = [
   { key: 'languages', label: 'Languages', items: 'JavaScript, Python, C#, Go' },
-  { key: 'frontend', label: 'Frontend', items: 'React, Angular, Tailwind CSS' },
-  { key: 'backend', label: 'Backend', items: 'ASP.NET Core, FastAPI, Express, Node.js, Serverless' },
+  { key: 'frontend', label: 'Frontend', items: 'React, Angular, Vue.js, Tailwind CSS' },
+  { key: 'backend', label: 'Backend', items: 'ASP.NET Core, FastAPI, Express, Node.js, GraphQL, gRPC, Serverless' },
   { key: 'infra', label: 'Infra & DevOps', items: 'AWS, Docker, Git' },
   { key: 'databases', label: 'Databases', items: 'PostgreSQL, DynamoDB, Oracle' },
-  { key: 'other', label: 'Other', items: 'Stripe, AI' },
+  { key: 'other', label: 'Other', items: 'Stripe, LLMs, RAG, AI coding agents' },
 ]
 
 const fadeUp = (delay = 0) => ({

@@ -10,7 +10,7 @@ const fadeUp = {
 const paragraphs = [
   "If I do something, I do it right.",
   "Backend engineer. I've worked on systems that move billions of dollars and I'm also building a dog walking app. The scale is different, the care isn't.",
-  "I lean toward the problems that have real stakes. Distributed systems, data migrations, architectures that need to hold up when things get serious. Fullstack when needed, backend by choice.",
+  "I lean toward the problems that have real stakes. Distributed systems, data migrations, architectures that need to hold up when things get serious. Fullstack when needed, backend by choice. And AI-native: coding agents are part of how I ship.",
   "Currently at Capital One in Mexico City. Previously at Trimble. Always shipping something on the side.",
 ]
 
