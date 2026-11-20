@@ -12,7 +12,7 @@ const experiences = [
     role: 'Software Engineer II',
     company: 'Capital One',
     date: 'Jul 2026 — Present',
-    desc: "I work on Community Finance, the part of Capital One that funds affordable housing through lending and tax-credit investments. I build the Go microservices and Angular front ends behind the workflows that actually move the money: approving equity disbursements and construction-loan draws. I work directly with clients and stakeholders to figure out what to build. I also pitched an LLM layer that reads operational data nobody could use before, got sign-off, and built it. Underwriters use it now to make credit decisions.",
+    desc: "I work on Community Finance, the part of Capital One that funds affordable housing through lending and tax-credit investments. I build the Go microservices and Angular front ends behind the workflows that actually move the money: approving equity disbursements and construction-loan draws. I work directly with clients and stakeholders to figure out what to build.",
     link: 'https://www.capitalone.com/',
     current: true,
   },
